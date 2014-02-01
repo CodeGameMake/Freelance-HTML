@@ -68,6 +68,7 @@ nav li span {
     width: 450px;
     height: 220px;
     margin-left: 160px;
+    padding:80px;
 }
 #new {
     position: absolute;
@@ -78,7 +79,30 @@ nav li span {
     font-family: Georgia;
     font-size: 40px;
     font-style: italic;
+    font-weight:normal;
+    color:#75184b;
 }
 .b1 p {
     font-family: Helvetica-Roman;
+    font-size:18px;
+}
+.button {
+    background-color:#75184b;
+    background-image:url(../img/button_arrow.png);
+    background-repeat:no-repeat;
+    background-position:200px;
+    width:220px;
+    border-radius:25px;
+    font-family:Helvetica-Roman;
+    padding-top:18px;
+    padding-bottom:18px;
+    padding-left:25px;
+}
+.button-block a {
+    text-decoration:none;
+    color:#fff;
+}
+.button span{
+    font-size:15px;
+    display:block;
 }
