@@ -67,7 +67,7 @@ nav li span {
 .block1 {
     width: 450px;
     height: 220px;
-    margin-left: 160px;
+    margin-left: 80px;
     padding:80px;
 }
 #new {
@@ -81,6 +81,7 @@ nav li span {
     font-style: italic;
     font-weight:normal;
     color:#75184b;
+	  margin:0;
 }
 .b1 p {
     font-family: Helvetica-Roman;
@@ -97,6 +98,7 @@ nav li span {
     padding-top:18px;
     padding-bottom:18px;
     padding-left:25px;
+	text-transform:uppercase;
 }
 .button-block a {
     text-decoration:none;
@@ -105,4 +107,8 @@ nav li span {
 .button span{
     font-size:15px;
     display:block;
+}
+
+.button-blue {
+	background-color:#0081c3;
 }
