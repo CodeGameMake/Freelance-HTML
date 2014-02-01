@@ -1,92 +1,82 @@
-header
-{
-    height: 120px;
-    width: 1200px;
-    margin: 0 auto;
-    position:relative;
+header {
+	height: 120px;
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
 }
-.b1
-{
-    background-color: #f7f7f5;
-    width: 1200px;
-    height: 400px;
-    margin: 0 auto;
-    background-image:url(../img/bg_1_img.png);
-    background-repeat:no-repeat;
-    background-position:right;
+section {
+	position: relative;
 }
-.b2
-{
-   background-image: url(../img/bg_1.jpg); 
-   width: 1200px;
-   height: 400px;
-   margin: 0 auto;
+.b1 {
+	background-color: #f7f7f5;
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+	background-image: url(../img/bg_1_img.png);
+	background-repeat: no-repeat;
+	background-position: right;
 }
-.b3
-{
-   background-image: url(../img/bg_2.jpg);
-   width: 1200px;
-   height: 400px;
-   margin: 0 auto;
+.b2 {
+	background-image: url(../img/bg_1.jpg);
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
 }
-.duni
-{
-   background-color: #f4f3f1;
-   width: 1200px;
-   height: 460px;
-   margin: 0 auto;
+.b3 {
+	background-image: url(../img/bg_2.jpg);
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
 }
-footer
-{
-   width: 1200px;
-   height: 330px;
-   background-color: #ffffff; 
+.duni {
+	background-color: #f4f3f1;
+	width: 1200px;
+	height: 460px;
+	margin: 0 auto;
+}
+footer {
+	width: 1200px;
+	height: 330px;
+	background-color: #ffffff;
 }
 .logo {
-    position:absolute;
-    left: 130px;
-    top: 20px;
+	position: absolute;
+	left: 130px;
+	top: 20px;
 }
 nav {
-    position:absolute;
-    left:500px;
-    top:45px;
-    font-family: Helvetica-Roman;
+	position: absolute;
+	left: 500px;
+	top: 45px;
+	font-family: Helvetica-Roman;
 }
-
 nav li {
-    float:left;
-    margin-left:50px;
+	float: left;
+	margin-left: 50px;
 }
-
 nav li::after {
- content:
-        ">"
+	content: ">"
 }
-
 nav li img {
-    margin-right:12px;
+	margin-right: 12px;
 }
-
 nav li span {
-    margin-right:10px;
-    padding-top:10px;
+	margin-right: 10px;
+	padding-top: 10px;
 }
 .block1 {
-    width:450px;
-    height:220px;
-    margin-left:160px;
+	width: 450px;
+	height: 220px;
+	margin-left: 160px;
 }
 #new {
-    position:absolute;
-    left:75px;
-    top:140px;
+	position: absolute;
+	left: 75px;
+	top: 140px;
 }
-
 #h3_b1 {
-    font-family:Georgia Italic;
+	font-family: Georgia Italic;
 }
-
 #p_b1 {
-    font-family:Helvetica-Roman;
+	font-family: Helvetica-Roman;
 }
