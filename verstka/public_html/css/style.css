@@ -3,6 +3,7 @@ header
     height: 120px;
     width: 1200px;
     margin: 0 auto;
+    position:relative;
 }
 .b1
 {
@@ -10,6 +11,9 @@ header
     width: 1200px;
     height: 400px;
     margin: 0 auto;
+    background-image:url(../img/bg_1_img.png);
+    background-repeat:no-repeat;
+    background-position:right;
 }
 .b2
 {
@@ -37,4 +41,52 @@ footer
    width: 1200px;
    height: 330px;
    background-color: #ffffff; 
+}
+.logo {
+    position:absolute;
+    left: 130px;
+    top: 20px;
+}
+nav {
+    position:absolute;
+    left:500px;
+    top:45px;
+    font-family: Helvetica-Roman;
+}
+
+nav li {
+    float:left;
+    margin-left:50px;
+}
+
+nav li::after {
+ content:
+        ">"
+}
+
+nav li img {
+    margin-right:12px;
+}
+
+nav li span {
+    margin-right:10px;
+    padding-top:10px;
+}
+.block1 {
+    width:450px;
+    height:220px;
+    margin-left:160px;
+}
+#new {
+    position:absolute;
+    left:75px;
+    top:140px;
+}
+
+#h3_b1 {
+    font-family:Georgia Italic;
+}
+
+#p_b1 {
+    font-family:Helvetica-Roman;
 }
