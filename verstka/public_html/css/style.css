@@ -88,13 +88,14 @@ nav li span {
     font-size:18px;
 }
 .button {
+  /*margin-top:40px;*/
     background-color:#75184b;
     background-image:url(../img/button_arrow.png);
     background-repeat:no-repeat;
     background-position:200px;
     width:220px;
-    border-radius:25px;
-    font-family:Helvetica-Roman;
+    border-radius:30px;
+    font-family:Helvetica-Bold;
     padding-top:18px;
     padding-bottom:18px;
     padding-left:25px;

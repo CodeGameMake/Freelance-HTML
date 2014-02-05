@@ -2,3 +2,7 @@
     font-family: Helvetica-Roman;
     src: url(../fonts/HelveticaLTStd-Roman.otf);
    }
+@font-face {
+    font-family: Helvetica-Bold;
+    src: url(../fonts/HelveticaLTStd-Bold.otf);
+   }
