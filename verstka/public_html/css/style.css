@@ -81,24 +81,26 @@ nav li span {
     font-style: italic;
     font-weight:normal;
     color:#75184b;
-	  margin:0;
+    margin:0;
 }
 .b1 p {
     font-family: Helvetica-Roman;
     font-size:18px;
 }
 .button {
-    background-color:#75184b;
     background-image:url(../img/button_arrow.png);
     background-repeat:no-repeat;
     background-position:200px;
     width:220px;
-    border-radius:25px;
-    font-family:Helvetica-Roman;
+    border-radius:30px;
+    font-family:Helvetica-Bold;
     padding-top:18px;
     padding-bottom:18px;
     padding-left:25px;
 	text-transform:uppercase;
+}
+.button-violet {
+    background-color:#75184b;
 }
 .button-block a {
     text-decoration:none;
