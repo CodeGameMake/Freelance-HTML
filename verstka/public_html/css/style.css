@@ -1,117 +1,123 @@
 header {
-    height: 120px;
-    width: 1200px;
-    margin: 0 auto;
-    position: relative;
+	height: 120px;
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
 }
 section {
-    position: relative;
+	position: relative;
 }
-.b1 {
-    background-color: #f7f7f5;
-    width: 1200px;
-    height: 400px;
-    margin: 0 auto;
-    background-image: url(../img/bg_1_img.png);
-    background-repeat: no-repeat;
-    background-position: right;
+/*----Basic class for blocks-----*/
+
+.block {
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
 }
-.b2 {
-    background-image: url(../img/bg_1.jpg);
-    width: 1200px;
-    height: 400px;
-    margin: 0 auto;
+.block h3 {
+	font-family: Georgia;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: normal;
+	color: #75184b;
+	margin: 0;
+}
+.block p {
+	font-family: Helvetica-Roman;
+	font-size: 18px;
+}
+.block .content {
+	width: 450px;
+	height: 220px;
+	margin-left: 80px;
+	padding: 80px;
+}
+/*----Styling block Product-----*/
+
+.block-product {
+	background-color: #f7f7f5;
+	background-image: url(../img/bg_1_img.png);
+	background-position: right;
+}
+/*----Styling block Product-----*/
+
+.block-shop {
+	background-image: url(../img/bg_1.jpg);
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
 }
 .b3 {
-    background-image: url(../img/bg_2.jpg);
-    width: 1200px;
-    height: 400px;
-    margin: 0 auto;
+	background-image: url(../img/bg_2.jpg);
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
 }
 .duni {
-    background-color: #f4f3f1;
-    width: 1200px;
-    height: 460px;
-    margin: 0 auto;
+	background-color: #f4f3f1;
+	width: 1200px;
+	height: 460px;
+	margin: 0 auto;
 }
 footer {
-    width: 1200px;
-    height: 330px;
-    background-color: #ffffff;
+	width: 1200px;
+	height: 330px;
+	background-color: #ffffff;
 }
 .logo {
-    position: absolute;
-    left: 130px;
-    top: 20px;
+	position: absolute;
+	left: 130px;
+	top: 20px;
 }
 nav {
-    position: absolute;
-    left: 500px;
-    top: 45px;
-    font-family: Helvetica-Roman;
+	position: absolute;
+	left: 500px;
+	top: 45px;
+	font-family: Helvetica-Roman;
 }
 nav li {
-    float: left;
-    margin-left: 50px;
+	float: left;
+	margin-left: 50px;
 }
 nav li::after {
-    content: ">"
+	content: ">"
 }
 nav li img {
-    margin-right: 12px;
+	margin-right: 12px;
 }
 nav li span {
-    margin-right: 10px;
-    padding-top: 10px;
-}
-.block1 {
-    width: 450px;
-    height: 220px;
-    margin-left: 80px;
-    padding:80px;
+	margin-right: 10px;
+	padding-top: 10px;
 }
 #new {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-}
-.b1 h3 {
-    font-family: Georgia;
-    font-size: 40px;
-    font-style: italic;
-    font-weight:normal;
-    color:#75184b;
-    margin:0;
-}
-.b1 p {
-    font-family: Helvetica-Roman;
-    font-size:18px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
 }
 .button {
-    background-image:url(../img/button_arrow.png);
-    background-repeat:no-repeat;
-    background-position:200px;
-    width:220px;
-    border-radius:30px;
-    font-family:Helvetica-Bold;
-    padding-top:18px;
-    padding-bottom:18px;
-    padding-left:25px;
-	text-transform:uppercase;
+	background-image: url(../img/button_arrow.png);
+	background-repeat: no-repeat;
+	background-position: 200px;
+	width: 220px;
+	border-radius: 30px;
+	font-family: Helvetica-Bold;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-left: 25px;
+	text-transform: uppercase;
 }
 .button-violet {
-    background-color:#75184b;
+	background-color: #75184b;
 }
 .button-block a {
-    text-decoration:none;
-    color:#fff;
+	text-decoration: none;
+	color: #fff;
 }
-.button span{
-    font-size:15px;
-    display:block;
+.button span {
+	font-size: 15px;
+	display: block;
 }
-
 .button-blue {
 	background-color:#0081c3;
 }
-
