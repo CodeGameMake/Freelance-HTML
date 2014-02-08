@@ -55,18 +55,33 @@ section {
 }
 .block-shop .content {
     margin-left: 480px;
-    padding:50px;
+    padding: 50px;
 }
-.block-shop img{
-    position:absolute;
-    top:-35px;
+.block-shop img {
+    position: absolute;
+    top: -33px;
 }
-.b3 {
+/*-----Styling block Gallery--------*/
+
+.block-gallery {
     background-image: url(../img/bg_2.jpg);
-    width: 1200px;
-    height: 400px;
-    margin: 0 auto;
 }
+.block-gallery h3 {
+    color: #2e2e2e;
+}
+.block-gallery p {
+    color: #2e2e2e;
+}
+.block-gallery .content {
+    margin-left: 80px;
+    padding: 50px;
+}
+.block-gallery img{
+    position:absolute;
+    left:737px;
+    top:-30px;
+}
+
 .duni {
     background-color: #f4f3f1;
     width: 1200px;
@@ -134,6 +149,6 @@ nav li span {
 .button-blue {
     background-color: #0081c3;
 }
-.img_shop {
-    
+.button-orange{
+    background-color:#ff8400;
 }
