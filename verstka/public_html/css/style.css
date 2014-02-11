@@ -76,17 +76,21 @@ section {
     margin-left: 80px;
     padding: 50px;
 }
-.block-gallery img{
-    position:absolute;
-    left:737px;
-    top:-30px;
+.block-gallery img {
+    position: absolute;
+    left: 737px;
+    top: -30px;
 }
+/*-----Styling Block Duni-----*/
 
 .duni {
     background-color: #f4f3f1;
-    width: 1200px;
+    background-image: url(../img/bg_duni.png);
+    background-position: right;
     height: 460px;
-    margin: 0 auto;
+}
+.duni .content p {
+    width: 380px;
 }
 footer {
     width: 1200px;
@@ -149,6 +153,6 @@ nav li span {
 .button-blue {
     background-color: #0081c3;
 }
-.button-orange{
-    background-color:#ff8400;
+.button-orange {
+    background-color: #ff8400;
 }
