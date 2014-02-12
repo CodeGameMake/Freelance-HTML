@@ -26,11 +26,26 @@ section {
     font-family: Helvetica-Roman;
     font-size: 18px;
 }
+.circle {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    background-color: #1c1c1c;
+    color: white;
+    font-size: 25px;
+    font-family: Helvetica-Comp;
+}
 .block .content {
     width: 450px;
     height: 220px;
     margin-left: 80px;
     padding: 80px;
+}
+.block_circle {
+    float: right;
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
 }
 /*----Styling block Product-----*/
 
@@ -61,7 +76,7 @@ section {
     position: absolute;
     top: -33px;
 }
-/*-----Styling block Gallery--------*/
+/*-----Styling block Gallery-----*/
 
 .block-gallery {
     background-image: url(../img/bg_2.jpg);
@@ -89,8 +104,27 @@ section {
     background-position: right;
     height: 460px;
 }
+.duni .content {
+    padding: 60px;
+}
 .duni .content p {
     width: 380px;
+}
+.duni .content a::after {
+    content: ">";
+}
+.duni .content a {
+    text-decoration: none;
+    color: #da1e2f;
+}
+.duni .content p,
+a {
+    font-family: Georgia;
+    font-style: normal;
+    color: #707070;
+}
+.duni .circle span {
+    margin-left: 25px;
 }
 footer {
     width: 1200px;
@@ -101,6 +135,14 @@ footer {
     position: absolute;
     left: 130px;
     top: 20px;
+}
+.market {
+    font-family: Helvetica-BoldCond;
+    text-transform: uppercase;
+    color: #da1e2f;
+    font-weight: bold;
+    margin-left: 850px;
+    width: 190px;
 }
 nav {
     position: absolute;
@@ -113,7 +155,7 @@ nav li {
     margin-left: 50px;
 }
 nav li::after {
-    content: ">"
+    content: ">";
 }
 nav li img {
     margin-right: 12px;
