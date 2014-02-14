@@ -34,6 +34,7 @@ section {
     color: white;
     font-size: 25px;
     font-family: Helvetica-Comp;
+    text-align: center;
 }
 .block .content {
     width: 450px;
@@ -46,6 +47,8 @@ section {
     height: 100px;
     width: 100px;
     font-weight: bold;
+    margin-left: 80px;
+    margin-top: 50px;
 }
 /*----Styling block Product-----*/
 
@@ -123,9 +126,6 @@ a {
     font-style: normal;
     color: #707070;
 }
-.duni .circle span {
-    margin-left: 25px;
-}
 footer {
     width: 1200px;
     height: 330px;
@@ -137,7 +137,7 @@ footer {
     top: 20px;
 }
 .market {
-    font-family: Helvetica-BoldCond;
+    font-family: Helvetica-Comp;/*must be BoldCond*/
     text-transform: uppercase;
     color: #da1e2f;
     font-weight: bold;
