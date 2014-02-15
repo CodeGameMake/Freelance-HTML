@@ -27,7 +27,7 @@ section {
     font-size: 18px;
 }
 .circle {
-    height: 80px;
+    height: 60px;
     width: 80px;
     border-radius: 40px;
     background-color: #1c1c1c;
@@ -35,12 +35,14 @@ section {
     font-size: 25px;
     font-family: Helvetica-Comp;
     text-align: center;
+    padding-top: 20px;
 }
 .block .content {
     width: 450px;
     height: 220px;
     margin-left: 80px;
     padding: 80px;
+    padding-top:70px;
 }
 .block_circle {
     float: right;
@@ -137,17 +139,20 @@ footer {
     top: 20px;
 }
 .market {
-    font-family: Helvetica-Comp;/*must be BoldCond*/
+    font-family: Helvetica-BoldCond;
     text-transform: uppercase;
     color: #da1e2f;
     font-weight: bold;
     margin-left: 850px;
     width: 190px;
 }
+.name {
+    font-family: Helvetica-BoldCond;
+}
 nav {
     position: absolute;
-    left: 500px;
-    top: 45px;
+    left: 425px;
+    top: 30px;
     font-family: Helvetica-Roman;
 }
 nav li {
@@ -161,7 +166,7 @@ nav li img {
     margin-right: 12px;
 }
 nav li span {
-    margin-right: 10px;
+    font-size:15px;
     padding-top: 10px;
 }
 #new {
@@ -183,6 +188,7 @@ nav li span {
 }
 .button-violet {
     background-color: #75184b;
+    margin-top:25px;
 }
 .button-block a {
     text-decoration: none;
