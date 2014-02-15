@@ -26,11 +26,31 @@ section {
     font-family: Helvetica-Roman;
     font-size: 18px;
 }
+.circle {
+    height: 60px;
+    width: 80px;
+    border-radius: 40px;
+    background-color: #1c1c1c;
+    color: white;
+    font-size: 25px;
+    font-family: Helvetica-Comp;
+    text-align: center;
+    padding-top: 20px;
+}
 .block .content {
     width: 450px;
     height: 220px;
     margin-left: 80px;
     padding: 80px;
+    padding-top:70px;
+}
+.block_circle {
+    float: right;
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 50px;
 }
 /*----Styling block Product-----*/
 
@@ -61,7 +81,7 @@ section {
     position: absolute;
     top: -33px;
 }
-/*-----Styling block Gallery--------*/
+/*-----Styling block Gallery-----*/
 
 .block-gallery {
     background-image: url(../img/bg_2.jpg);
@@ -76,17 +96,37 @@ section {
     margin-left: 80px;
     padding: 50px;
 }
-.block-gallery img{
-    position:absolute;
-    left:737px;
-    top:-30px;
+.block-gallery img {
+    position: absolute;
+    left: 737px;
+    top: -30px;
 }
+/*-----Styling Block Duni-----*/
 
 .duni {
     background-color: #f4f3f1;
-    width: 1200px;
+    background-image: url(../img/bg_duni.png);
+    background-position: right;
     height: 460px;
-    margin: 0 auto;
+}
+.duni .content {
+    padding: 60px;
+}
+.duni .content p {
+    width: 380px;
+}
+.duni .content a::after {
+    content: ">";
+}
+.duni .content a {
+    text-decoration: none;
+    color: #da1e2f;
+}
+.duni .content p,
+a {
+    font-family: Georgia;
+    font-style: normal;
+    color: #707070;
 }
 footer {
     width: 1200px;
@@ -98,10 +138,21 @@ footer {
     left: 130px;
     top: 20px;
 }
+.market {
+    font-family: Helvetica-BoldCond;
+    text-transform: uppercase;
+    color: #da1e2f;
+    font-weight: bold;
+    margin-left: 850px;
+    width: 190px;
+}
+.name {
+    font-family: Helvetica-BoldCond;
+}
 nav {
     position: absolute;
-    left: 500px;
-    top: 45px;
+    left: 425px;
+    top: 30px;
     font-family: Helvetica-Roman;
 }
 nav li {
@@ -109,13 +160,13 @@ nav li {
     margin-left: 50px;
 }
 nav li::after {
-    content: ">"
+    content: ">";
 }
 nav li img {
     margin-right: 12px;
 }
 nav li span {
-    margin-right: 10px;
+    font-size:15px;
     padding-top: 10px;
 }
 #new {
@@ -137,6 +188,7 @@ nav li span {
 }
 .button-violet {
     background-color: #75184b;
+    margin-top:25px;
 }
 .button-block a {
     text-decoration: none;
@@ -149,6 +201,6 @@ nav li span {
 .button-blue {
     background-color: #0081c3;
 }
-.button-orange{
-    background-color:#ff8400;
+.button-orange {
+    background-color: #ff8400;
 }

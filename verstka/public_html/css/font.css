@@ -1,8 +1,16 @@
 @font-face {
     font-family: Helvetica-Roman;
     src: url(../fonts/HelveticaLTStd-Roman.otf);
-   }
+}
 @font-face {
     font-family: Helvetica-Bold;
     src: url(../fonts/HelveticaLTStd-Bold.otf);
-   }
+}
+@font-face {
+    font-family: Helvetica-Comp;
+    src: url(../fonts/HelveticaLTStd-Cond.otf);
+}
+@font-face {
+    font-family: Helvetica-BoldCond;
+    src: url(../fonts/HelveticaLTStd-BoldCond.otf);
+}
