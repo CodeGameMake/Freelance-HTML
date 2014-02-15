@@ -82,6 +82,7 @@ html {
  * elements.
  */
 
+/*
 html,
 button,
 input,
@@ -89,6 +90,7 @@ select,
 textarea {
     font-family: sans-serif;
 }
+*/
 
 /**
  * Address margins handled incorrectly in IE 6/7.
