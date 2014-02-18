@@ -149,6 +149,19 @@ footer {
 .name {
     font-family: Helvetica-BoldCond;
 }
+.block-shop .content {
+    padding-top:38px;
+    padding-left:3px;
+}
+.block-shop h3{
+    line-height:1.24;
+}
+.block-shop p{
+    line-height:1.24;
+}
+.block-shop p {
+    width:540px;
+}
 nav {
     position: absolute;
     left: 425px;
@@ -200,6 +213,7 @@ nav li span {
 }
 .button-blue {
     background-color: #0081c3;
+    margin-top:38px;
 }
 .button-orange {
     background-color: #ff8400;
