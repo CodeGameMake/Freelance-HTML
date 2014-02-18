@@ -66,6 +66,7 @@ section {
 
 .block-shop {
     background-image: url(../img/bg_1.jpg);
+    height:399px;
 }
 .block-shop h3 {
     color: #fff;
@@ -88,18 +89,19 @@ section {
 }
 .block-gallery h3 {
     color: #2e2e2e;
+    width:570px;
 }
 .block-gallery p {
     color: #2e2e2e;
 }
 .block-gallery .content {
-    margin-left: 80px;
+    margin-left: 110px;
     padding: 50px;
 }
 .block-gallery img {
     position: absolute;
     left: 737px;
-    top: -30px;
+    top: -43px;
 }
 /*-----Styling Block Duni-----*/
 
@@ -162,6 +164,10 @@ footer {
 .block-shop p {
     width:540px;
 }
+.block-gallery p{
+    width:500px;
+    margin-top:14px;
+}
 nav {
     position: absolute;
     left: 425px;
@@ -217,4 +223,5 @@ nav li span {
 }
 .button-orange {
     background-color: #ff8400;
+    margin-top:32px;
 }
