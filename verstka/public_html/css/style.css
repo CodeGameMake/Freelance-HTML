@@ -166,8 +166,29 @@ nav li img {
     margin-right: 12px;
 }
 nav li span {
-    font-size:15px;
     padding-top: 10px;
+}
+nav li a {
+	color: #000;
+	text-decoration: none;
+	font-family: Helvetica-Roman;
+	font-size:15px;
+}
+nav li a:hover {
+	text-decoration: underline;
+}
+nav li a:active {
+	font-size: 18px;
+}
+nav li a:visited {
+	color: purple;
+}
+.help {
+	position: absolute;
+	display: none;
+}
+nav li a:hover li.help {
+	display: block;
 }
 #new {
     position: absolute;
