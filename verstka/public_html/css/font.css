@@ -14,3 +14,7 @@
     font-family: Helvetica-BoldCond;
     src: url(../fonts/HelveticaLTStd-BoldCond.otf);
 }
+@font-face {
+    font-family: Helvetica-Obl;
+    src: url(../fonts/HelveticaLTStd-Obl.otf);
+}
