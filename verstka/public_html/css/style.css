@@ -42,15 +42,13 @@ section {
     height: 220px;
     margin-left: 80px;
     padding: 80px;
-    padding-top:70px;
+    padding-top: 70px;
 }
 .block_circle {
-    float: right;
+    position: absolute;
     height: 100px;
     width: 100px;
     font-weight: bold;
-    margin-left: 80px;
-    margin-top: 50px;
 }
 /*----Styling block Product-----*/
 
@@ -66,7 +64,7 @@ section {
 
 .block-shop {
     background-image: url(../img/bg_1.jpg);
-    height:399px;
+    height: 399px;
 }
 .block-shop h3 {
     color: #fff;
@@ -89,7 +87,7 @@ section {
 }
 .block-gallery h3 {
     color: #2e2e2e;
-    width:570px;
+    width: 570px;
 }
 .block-gallery p {
     color: #2e2e2e;
@@ -123,6 +121,7 @@ section {
 .duni .content a {
     text-decoration: none;
     color: #da1e2f;
+    margin-top:30px;
 }
 .duni .content p,
 a {
@@ -145,28 +144,49 @@ footer {
     text-transform: uppercase;
     color: #da1e2f;
     font-weight: bold;
-    margin-left: 850px;
-    width: 190px;
+    margin-left: 853px;
+    width: 200px;
+    font-size: 18px;
 }
 .name {
     font-family: Helvetica-BoldCond;
 }
 .block-shop .content {
-    padding-top:38px;
-    padding-left:3px;
+    padding-top: 38px;
+    padding-left: 3px;
 }
-.block-shop h3{
-    line-height:1.24;
-}
-.block-shop p{
-    line-height:1.24;
+.block-shop h3 {
+    line-height: 1.24;
 }
 .block-shop p {
-    width:540px;
+    line-height: 1.24;
 }
-.block-gallery p{
-    width:500px;
-    margin-top:14px;
+.block-shop p {
+    width: 540px;
+}
+.block-gallery p {
+    width: 500px;
+    margin-top: 14px;
+}
+.duni h3 {
+    margin-right: 0px;
+}
+.duni .content {
+    padding-right: 0px;
+    width: 385px;
+    padding-left: 0px;
+    margin-left: 160px;
+    padding-top: 50px;
+}
+.text {
+    margin-top: 24px;
+}
+.duni .content p {
+    width: 390px;
+}
+.duni .content a {
+    font-size: 18px;
+    margin-top:25px;
 }
 nav {
     position: absolute;
@@ -185,7 +205,7 @@ nav li img {
     margin-right: 12px;
 }
 nav li span {
-    font-size:15px;
+    font-size: 15px;
     padding-top: 10px;
 }
 #new {
@@ -207,7 +227,7 @@ nav li span {
 }
 .button-violet {
     background-color: #75184b;
-    margin-top:25px;
+    margin-top: 25px;
 }
 .button-block a {
     text-decoration: none;
@@ -219,9 +239,21 @@ nav li span {
 }
 .button-blue {
     background-color: #0081c3;
-    margin-top:38px;
+    margin-top: 38px;
 }
 .button-orange {
     background-color: #ff8400;
-    margin-top:32px;
+    margin-top: 32px;
+}
+.circle1 {
+    left: 635px;
+    top: 50px;
+}
+.circle2 {
+    left: 797px;
+    top:50px;
+}
+.circle3 {
+    left:957px;
+    top:50px;
 }
