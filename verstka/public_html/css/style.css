@@ -9,6 +9,10 @@ section {
 }
 footer {
     position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 330px;
+    background-color: #ffffff;
 }
 /*----Basic class for blocks-----*/
 
@@ -130,11 +134,6 @@ a {
     font-family: Georgia;
     font-style: normal;
     color: #707070;
-}
-footer {
-    width: 1200px;
-    height: 330px;
-    background-color: #ffffff;
 }
 .logo {
     position: absolute;
@@ -281,20 +280,14 @@ nav li span {
     border-radius: 25px;
     background-color: #909090;
     position: absolute;
-    top:150px;
+    top: 150px;
 }
-.facebook {
-
+.facebook {} .twitter {
+    left: 50px;
 }
-
-.twitter {
-    left:50px;
-}
-
 .instagram {
-    left:110px;
+    left: 110px;
 }
-
 .pinterest {
-    left:165px;
+    left: 165px;
 }
