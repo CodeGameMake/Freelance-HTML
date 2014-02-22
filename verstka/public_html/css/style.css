@@ -7,6 +7,9 @@ header {
 section {
     position: relative;
 }
+footer {
+    position: relative;
+}
 /*----Basic class for blocks-----*/
 
 .block {
@@ -42,7 +45,7 @@ section {
     height: 220px;
     margin-left: 80px;
     padding: 80px;
-    padding-top:70px;
+    padding-top: 70px;
 }
 .block_circle {
     float: right;
@@ -166,7 +169,7 @@ nav li img {
     margin-right: 12px;
 }
 nav li span {
-    font-size:15px;
+    font-size: 15px;
     padding-top: 10px;
 }
 #new {
@@ -188,7 +191,7 @@ nav li span {
 }
 .button-violet {
     background-color: #75184b;
-    margin-top:25px;
+    margin-top: 25px;
 }
 .button-block a {
     text-decoration: none;
@@ -203,4 +206,95 @@ nav li span {
 }
 .button-orange {
     background-color: #ff8400;
+}
+.business {
+    position: absolute;
+    font-size: 15px;
+    width: 160px;
+    height: 200px;
+    left: 160px;
+    top: 60px;
+}
+.business h3 {
+    font-family: Helvetica-BoldCond;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.business a {
+    font-family: Helvetica-Roman;
+    text-decoration: none;
+    color: black;
+}
+.adress {
+    position: absolute;
+    font-size: 15px;
+    width: 265px;
+    height: 135px;
+    left: 415px;
+    top: 60px;
+}
+.adress h3 {
+    font-family: Helvetica-BoldCond;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.adress p {
+    font-family: Helvetica-Roman;
+    width: 280px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #8e8e8e;
+}
+.adress a {
+    font-family: Helvetica-Roman;
+    text-decoration: none;
+    color: black;
+}
+.subscribe {
+    position: absolute;
+    font-size: 15px;
+    width: 310px;
+    height: 210px;
+    left: 770px;
+    top: 60px;
+}
+.subscribe h3 {
+    font-family: Helvetica-BoldCond;
+    margin-top: 0px;
+    margin-bottom: 15x;
+    text-transform: uppercase;
+}
+.subscribe span {
+    font-family: Helvetica-Roman;
+}
+.subscribe img {
+    margin-top: 25px;
+}
+.social {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: #909090;
+    position: absolute;
+    top:150px;
+}
+.facebook {
+
+}
+
+.twitter {
+    left:50px;
+}
+
+.instagram {
+    left:110px;
+}
+
+.pinterest {
+    left:165px;
 }
