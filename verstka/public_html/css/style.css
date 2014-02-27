@@ -259,7 +259,6 @@ footer .container {
 }
 .subscribe {
     font-size: 15px;
-    border: 1px solid black;
     width: 310px;
     float: right;
     margin-right: 10px;
@@ -277,19 +276,15 @@ footer .container {
     margin-top: 25px;
 }
 .social {
+    float: left;
     height: 50px;
     width: 50px;
     border-radius: 25px;
     background-color: #909090;
 }
-.facebook {} .twitter {
-    left: 50px;
-}
-.instagram {
-    left: 110px;
-}
-.pinterest {
-    left: 165px;
+.subscribe div{
+    margin-top: 40px;
+    margin-right: 15px;
 }
 form input[type='email'] {
     width: 220px;
@@ -300,10 +295,13 @@ form input[type='email'] {
 }
 form input[type='submit'] {
     width: 60px;
-    height: 46px;
+    height: 44px;
     background-color: #1c1c1c;
     color: white;
     font-family: Helvetica-BoldCond;
     border: 1px solid #1c1c1c; 
     margin-left: -4px;
+}
+.instagram i{
+    background-color: #909090;
 }
