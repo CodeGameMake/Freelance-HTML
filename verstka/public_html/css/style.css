@@ -34,8 +34,8 @@ section {
     color: white;
     font-size: 25px;
     font-family: Helvetica-Comp;
-    text-align: center;
     padding-top: 20px;
+    margin-bottom: 15px;
 }
 .block .content {
     width: 450px;
@@ -49,6 +49,7 @@ section {
     height: 100px;
     width: 100px;
     font-weight: bold;
+    text-align: center;
 }
 /*----Styling block Product-----*/
 
@@ -147,9 +148,12 @@ footer {
     margin-left: 853px;
     width: 200px;
     font-size: 18px;
+    margin-top: 10px;
 }
 .name {
     font-family: Helvetica-BoldCond;
+    font-size: 18px;
+    padding-top: 20px;
 }
 .block-shop .content {
     padding-top: 38px;
@@ -180,13 +184,13 @@ footer {
 }
 .text {
     margin-top: 24px;
+    margin-bottom: 25px;
 }
 .duni .content p {
     width: 390px;
 }
 .duni .content a {
     font-size: 18px;
-    margin-top:25px;
 }
 nav {
     position: absolute;
