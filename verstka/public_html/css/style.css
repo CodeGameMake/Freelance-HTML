@@ -42,7 +42,7 @@ section {
     height: 220px;
     margin-left: 80px;
     padding: 80px;
-    padding-top:70px;
+    padding-top: 70px;
 }
 .block_circle {
     float: right;
@@ -158,6 +158,7 @@ nav {
 nav li {
     float: left;
     margin-left: 50px;
+    list-style-type: none;    
 }
 nav li::after {
     content: ">";
@@ -169,26 +170,26 @@ nav li span {
     padding-top: 10px;
 }
 nav li a {
-	color: #000;
-	text-decoration: none;
-	font-family: Helvetica-Roman;
-	font-size:15px;
+    color: #000;
+    text-decoration: none;
+    font-family: Helvetica-Roman;
+    font-size: 15px;
 }
 nav li a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 nav li a:active {
-	font-size: 18px;
+    font-size: 18px;
 }
 nav li a:visited {
-	color: purple;
+    color: purple;
 }
 .help {
-	position: absolute;
-	display: none;
+    position: absolute;
+    display: none;
 }
 nav li a:hover li.help {
-	display: block;
+    display: block;
 }
 #new {
     position: absolute;
@@ -209,7 +210,7 @@ nav li a:hover li.help {
 }
 .button-violet {
     background-color: #75184b;
-    margin-top:25px;
+    margin-top: 25px;
 }
 .button-block a {
     text-decoration: none;
