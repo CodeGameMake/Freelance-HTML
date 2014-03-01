@@ -1,0 +1,66 @@
+/*
+*
+* --- file style.scss
+* import all file project
+*
+*
+*/
+/*framework Bourbon
+-----------------------------------------------------*/
+/* mixin project
+-----------------------------------------------------*/
+/*
+*
+* --- file _mixin.scss
+*   project mixin
+*
+*
+*/
+/* setting project
+-----------------------------------------------------*/
+/*
+*
+* --- file _setting.scss
+* import all file project
+*
+*
+*/
+/* Markup project
+-----------------------------------------------------*/
+/*
+*
+* --- file _grid.scss
+*    markup page
+*
+*
+*/
+header {
+  width: 1200px;
+  height: 120px;
+  margin: 0 auto;
+  position: relative; }
+
+section {
+  position: relative; }
+
+footer {
+  position: relative;
+  margin: 0 auto;
+  width: 1200px;
+  height: 330px;
+  background-color: #ffffff; }
+
+.container {
+  margin: 0 auto;
+  width: 920px;
+  height: auto; }
+
+/* style page
+-----------------------------------------------------*/
+/*
+*
+* --- file _main.scss
+* styling main page
+*
+*
+*/

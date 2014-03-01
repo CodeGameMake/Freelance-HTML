@@ -1,0 +1,26 @@
+/*
+*
+* --- file _grid.scss
+*    markup page
+*
+*
+*/
+//markup block 
+header {
+	@include size($page_width 120px);
+  @include center();
+	position: relative;
+}
+section {
+	position: relative;
+}
+footer {
+	position: relative;
+  @include center();
+	@include size($page_width 330px);
+	background-color: #ffffff;
+}
+.container {
+	@include center();
+	@include size(920px auto);
+}
