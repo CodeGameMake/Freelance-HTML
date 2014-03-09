@@ -5,3 +5,340 @@
 *
 *
 */
+
+//Settings for blocks
+.block {
+	@include size($page_width 400px);
+	@include center;
+	background-repeat: no-repeat;
+}
+.block {
+	h3 {
+		@include Georgia;
+		font-size: 40px;
+		font-style: italic;
+		font-weight: normal;
+		margin: 0;
+	}
+	p {
+		@include Roman;
+		font-size: 18px;
+	}
+	.content {
+		@include size(450px 220px);
+		margin-left: 80px;
+		padding: 80px;
+		padding-top: 70px;
+	}
+}
+.circle {
+	@include size(80px 60px);
+	border-radius: 40px;
+	background-color: #1c1c1c;
+	color: white;
+	font-size: 25px;
+	@include Comp;
+	padding-top: 20px;
+	margin-bottom: 15px;
+}
+.block_circle {
+	@include size(100px 100px);
+	@include absolute;
+	font-weight: bold;
+	text-align: center;
+}
+.button {
+	background-image: url(../img/button_arrow.png);
+	background-repeat: no-repeat;
+	background-position: 200px;
+	width: 220px;
+	border-radius: 30px;
+	@include Bold;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-left: 25px;
+	@include text_up;
+	span {
+		font-size: 15px;
+		display: block;
+	}
+}
+.button-block {
+	a {
+		text-decoration: none;
+		@include white;
+	}
+}
+//Styling header
+.logo {
+	@include absolute;
+	left: 130px;
+	top: 20px;
+}
+nav {
+	@include absolute;
+	left: 425px;
+	top: 30px;
+	@include Roman;
+	li {
+		float: left;
+		margin-left: 50px;
+		list-style-type: none;
+		img {
+			margin-right: 12px;
+		}
+		span {
+			font-size: 15px;
+			padding-top: 10px;
+		}
+	}
+	li::after {
+		content: ">";
+	}
+}
+//Styling block-product
+.block-product {
+	background-color: #f7f7f5;
+	background-image: url(../img/bg_1_img.png);
+	@include bg_right;
+	h3 {
+		color: #75184b;
+	}
+	.content {
+		#new {
+			@include absolute;
+			left: 0px;
+			top: 0px;
+		}
+		.button-block {
+			.button-violet {
+				background-color: #75184b;
+				margin-top: 25px;
+			}
+		}
+	}
+}
+//Styling block-shop
+.block-shop {
+	background-image: url(../img/bg_1.jpg);
+	@include size($page_width 399px);
+	h3 {
+		@include white;
+		line-height: 1.24;
+	}
+	p {
+		@include white;
+		line-height: 1.24;
+		width: 540px;
+	}
+	.content {
+		margin-left: 480px;
+		padding: 50px;
+	}
+	img {
+		@include absolute;
+		top: -33px;
+	}
+	.content {
+		padding-top: 38px;
+		padding-left: 3px;
+		.button-block {
+			.button-blue {
+				background-color: #0081c3;
+				margin-top: 38px;
+			}
+		}
+	}
+}
+//Styling block-gallery
+.block-gallery {
+	background-image: url(../img/bg_2.jpg);
+	h3 {
+		@include grey;
+		width: 570px;
+	}
+	p {
+		@include grey;
+		width: 500px;
+		margin-top: 14px;
+	}
+	.content {
+		margin-left: 110px;
+		padding: 50px;
+		.button-block {
+			.button-orange {
+				background-color: #ff8400;
+				margin-top: 32px;
+			}
+		}
+	}
+	img {
+		@include absolute;
+		left: 737px;
+		top: -43px;
+	}
+}
+//Styling duni
+.duni {
+	background-color: #f4f3f1;
+	background-image: url(../img/bg_duni.png);
+	@include bg_right;
+	@include size($page_width 460px);
+	.circle1 {
+		left: 635px;
+		top: 50px;
+	}
+	.circle2 {
+		left: 797px;
+		top: 50px;
+	}
+	.circle3 {
+		left: 957px;
+		top: 50px;
+	}
+	.market {
+		@include BoldCond;
+		@include text_up;
+		color: #da1e2f;
+		font-weight: bold;
+		margin-left: 853px;
+		width: 200px;
+		font-size: 18px;
+		margin-top: 10px;
+	}
+	.name {
+		@include BoldCond;
+		font-size: 18px;
+		padding-top: 20px;
+	}
+	.content {
+		padding: 60px;
+		padding-right: 0px;
+		width: 385px;
+		padding-left: 0px;
+		margin-left: 160px;
+		padding-top: 50px;
+		.text {
+			margin-top: 24px;
+			margin-bottom: 25px;
+		}
+		p {
+			width: 390px;
+			color: #707070;
+			@include Georgia;
+			font-style: normal;
+		}
+		a::after {
+			content: ">";
+		}
+		a {
+			text-decoration: none;
+			color: #da1e2f;
+			margin-top: 30px;
+			font-size: 18px;
+			@include Georgia;
+			font-style: normal;
+		}
+		h3 {
+			margin-right: 0px;
+		}
+	}
+}
+//Styling footer
+footer {
+	@include size($page_width 330px);
+	@include white;
+	.container {
+		margin-top: 60px;
+		.adress {
+			float: left;
+			margin-left: 110px;
+			font-size: 15px;
+			width: 265px;
+			h3 {
+				margin-top: 0px;
+				margin-bottom: 30px;
+				@include text_up;
+				@include BoldCond;
+			}
+			p {
+				@include Roman;
+				width: 280px;
+				padding-top: 0px;
+				padding-left: 0px;
+				padding-right: 0px;
+				margin-top: 0px;
+				margin-bottom: 20px;
+				color: #8e8e8e;
+			}
+		}
+		.business {
+			font-size: 15px;
+			@include size(160px 200px);
+			float: left;
+			h3 {
+				margin-top: 0px;
+				margin-bottom: 40px;
+				@include text_up;
+				@include BoldCond;
+			}
+			a {
+				text-decoration: none;
+				color: black;
+				@include Roman;
+			}
+		}
+		.subscribe {
+			font-size: 15px;
+			width: 310px;
+			float: right;
+			margin-right: 10px;
+			.social {
+				float: left;
+				border-radius: 25px;
+				background-color: #909090;
+				@include size(50px 50px);
+				i {
+					@include white;
+					margin-top: 10px;
+					margin-left: 12px;
+				}
+			}
+			.facebook {
+				i {
+					margin-left: 18px;
+				}
+			}
+			div {
+				margin-top: 40px;
+				margin-right: 15px;
+			}
+			h3 {
+				margin-top: 0px;
+				margin-bottom: 15x;
+				@include text_up;
+				@include BoldCond;
+			}
+			span {
+				@include Roman;
+			}
+			form {
+				margin-top: 25px;
+			}
+			form input[type='email'] {
+				@include size(220px 40px);
+				padding-left: 15px;
+				@include Obl;
+				border: 1px solid #909090;
+			}
+			form input[type='submit'] {
+				background-color: #1c1c1c;
+				color: white;
+				border: 1px solid #1c1c1c;
+				margin-left: -4px;
+				@include size(60px 44px);
+				@include BoldCond;
+			}
+		}
+	}
+}

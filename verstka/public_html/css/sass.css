@@ -64,3 +64,279 @@ footer {
 *
 *
 */
+.block {
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto;
+  background-repeat: no-repeat; }
+
+.block h3 {
+  font-family: Georgia;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0; }
+.block p {
+  font-family: Helvetica-Roman;
+  font-size: 18px; }
+.block .content {
+  width: 450px;
+  height: 220px;
+  margin-left: 80px;
+  padding: 80px;
+  padding-top: 70px; }
+
+.circle {
+  width: 80px;
+  height: 60px;
+  border-radius: 40px;
+  background-color: #1c1c1c;
+  color: white;
+  font-size: 25px;
+  font-family: Helvetica-Comp;
+  padding-top: 20px;
+  margin-bottom: 15px; }
+
+.block_circle {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  font-weight: bold;
+  text-align: center; }
+
+.button {
+  background-image: url(../img/button_arrow.png);
+  background-repeat: no-repeat;
+  background-position: 200px;
+  width: 220px;
+  border-radius: 30px;
+  font-family: Helvetica-Bold;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 25px;
+  text-transform: uppercase; }
+  .button span {
+    font-size: 15px;
+    display: block; }
+
+.button-block a {
+  text-decoration: none;
+  color: #fff; }
+
+.logo {
+  position: absolute;
+  left: 130px;
+  top: 20px; }
+
+nav {
+  position: absolute;
+  left: 425px;
+  top: 30px;
+  font-family: Helvetica-Roman; }
+  nav li {
+    float: left;
+    margin-left: 50px;
+    list-style-type: none; }
+    nav li img {
+      margin-right: 12px; }
+    nav li span {
+      font-size: 15px;
+      padding-top: 10px; }
+  nav li::after {
+    content: ">"; }
+
+.block-product {
+  background-color: #f7f7f5;
+  background-image: url(../img/bg_1_img.png);
+  background-position: right; }
+  .block-product h3 {
+    color: #75184b; }
+  .block-product .content #new {
+    position: absolute;
+    left: 0px;
+    top: 0px; }
+  .block-product .content .button-block .button-violet {
+    background-color: #75184b;
+    margin-top: 25px; }
+
+.block-shop {
+  background-image: url(../img/bg_1.jpg);
+  width: 1200px;
+  height: 399px; }
+  .block-shop h3 {
+    color: #fff;
+    line-height: 1.24; }
+  .block-shop p {
+    color: #fff;
+    line-height: 1.24;
+    width: 540px; }
+  .block-shop .content {
+    margin-left: 480px;
+    padding: 50px; }
+  .block-shop img {
+    position: absolute;
+    top: -33px; }
+  .block-shop .content {
+    padding-top: 38px;
+    padding-left: 3px; }
+    .block-shop .content .button-block .button-blue {
+      background-color: #0081c3;
+      margin-top: 38px; }
+
+.block-gallery {
+  background-image: url(../img/bg_2.jpg); }
+  .block-gallery h3 {
+    color: #2e2e2e;
+    width: 570px; }
+  .block-gallery p {
+    color: #2e2e2e;
+    width: 500px;
+    margin-top: 14px; }
+  .block-gallery .content {
+    margin-left: 110px;
+    padding: 50px; }
+    .block-gallery .content .button-block .button-orange {
+      background-color: #ff8400;
+      margin-top: 32px; }
+  .block-gallery img {
+    position: absolute;
+    left: 737px;
+    top: -43px; }
+
+.duni {
+  background-color: #f4f3f1;
+  background-image: url(../img/bg_duni.png);
+  background-position: right;
+  width: 1200px;
+  height: 460px; }
+  .duni .circle1 {
+    left: 635px;
+    top: 50px; }
+  .duni .circle2 {
+    left: 797px;
+    top: 50px; }
+  .duni .circle3 {
+    left: 957px;
+    top: 50px; }
+  .duni .market {
+    font-family: Helvetica-BoldCond;
+    text-transform: uppercase;
+    color: #da1e2f;
+    font-weight: bold;
+    margin-left: 853px;
+    width: 200px;
+    font-size: 18px;
+    margin-top: 10px; }
+  .duni .name {
+    font-family: Helvetica-BoldCond;
+    font-size: 18px;
+    padding-top: 20px; }
+  .duni .content {
+    padding: 60px;
+    padding-right: 0px;
+    width: 385px;
+    padding-left: 0px;
+    margin-left: 160px;
+    padding-top: 50px; }
+    .duni .content .text {
+      margin-top: 24px;
+      margin-bottom: 25px; }
+    .duni .content p {
+      width: 390px;
+      color: #707070;
+      font-family: Georgia;
+      font-style: normal; }
+    .duni .content a::after {
+      content: ">"; }
+    .duni .content a {
+      text-decoration: none;
+      color: #da1e2f;
+      margin-top: 30px;
+      font-size: 18px;
+      font-family: Georgia;
+      font-style: normal; }
+    .duni .content h3 {
+      margin-right: 0px; }
+
+footer {
+  width: 1200px;
+  height: 330px;
+  color: #fff; }
+  footer .container {
+    margin-top: 60px; }
+    footer .container .adress {
+      float: left;
+      margin-left: 110px;
+      font-size: 15px;
+      width: 265px; }
+      footer .container .adress h3 {
+        margin-top: 0px;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        font-family: Helvetica-BoldCond; }
+      footer .container .adress p {
+        font-family: Helvetica-Roman;
+        width: 280px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        color: #8e8e8e; }
+    footer .container .business {
+      font-size: 15px;
+      width: 160px;
+      height: 200px;
+      float: left; }
+      footer .container .business h3 {
+        margin-top: 0px;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        font-family: Helvetica-BoldCond; }
+      footer .container .business a {
+        text-decoration: none;
+        color: black;
+        font-family: Helvetica-Roman; }
+    footer .container .subscribe {
+      font-size: 15px;
+      width: 310px;
+      float: right;
+      margin-right: 10px; }
+      footer .container .subscribe .social {
+        float: left;
+        border-radius: 25px;
+        background-color: #909090;
+        width: 50px;
+        height: 50px; }
+        footer .container .subscribe .social i {
+          color: #fff;
+          margin-top: 10px;
+          margin-left: 12px; }
+      footer .container .subscribe .facebook i {
+        margin-left: 18px; }
+      footer .container .subscribe div {
+        margin-top: 40px;
+        margin-right: 15px; }
+      footer .container .subscribe h3 {
+        margin-top: 0px;
+        margin-bottom: 15x;
+        text-transform: uppercase;
+        font-family: Helvetica-BoldCond; }
+      footer .container .subscribe span {
+        font-family: Helvetica-Roman; }
+      footer .container .subscribe form {
+        margin-top: 25px; }
+      footer .container .subscribe form input[type='email'] {
+        width: 220px;
+        height: 40px;
+        padding-left: 15px;
+        font-family: Helvetica-Obl;
+        border: 1px solid #909090; }
+      footer .container .subscribe form input[type='submit'] {
+        background-color: #1c1c1c;
+        color: white;
+        border: 1px solid #1c1c1c;
+        margin-left: -4px;
+        width: 60px;
+        height: 44px;
+        font-family: Helvetica-BoldCond; }

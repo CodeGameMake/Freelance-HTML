@@ -30,17 +30,11 @@
 	margin-bottom: 15px;
 }
 .block .content {
-	<<<<<<< HEAD width: 450px;
+	width: 450px;
 	height: 220px;
 	margin-left: 80px;
 	padding: 80px;
 	padding-top: 70px;
-	=======width: 450px;
-	height: 220px;
-	margin-left: 80px;
-	padding: 80px;
-	padding-top: 70px;
-	>>>>>>> task-3
 }
 .block_circle {
 	position: absolute;

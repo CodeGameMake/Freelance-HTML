@@ -9,5 +9,36 @@
 @mixin center() {
 	margin: 0 auto;
 }
-
-
+@mixin absolute() {
+	position: absolute;
+}
+@mixin BoldCond() {
+	font-family: Helvetica-BoldCond;
+}
+@mixin Obl() {
+	font-family: Helvetica-Obl;
+}
+@mixin Bold() {
+	font-family: Helvetica-Bold;
+}
+@mixin Georgia() {
+	font-family: Georgia;
+}
+@mixin Roman() {
+	font-family: Helvetica-Roman;
+}
+@mixin Comp() {
+	font-family: Helvetica-Comp;
+}
+@mixin white() {
+	color: #fff;
+}
+@mixin grey() {
+	color: #2e2e2e;
+}
+@mixin bg_right{
+	background-position: right;
+}
+@mixin text_up{
+	text-transform: uppercase;
+}
