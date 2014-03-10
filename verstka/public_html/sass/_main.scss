@@ -98,11 +98,9 @@ nav {
 }
 //Styling block-product
 .block-product {
-	background-color: #f7f7f5;
-	background-image: url(../img/bg_1_img.png);
-	@include bg_right;
+	@include background-block($bg-color-product, url(../img/bg_1_img.png), right);
 	h3 {
-		color: #75184b;
+		color: $font-color-product;
 	}
 	.content {
 		#new {
@@ -112,7 +110,7 @@ nav {
 		}
 		.button-block {
 			.button-violet {
-				background-color: #75184b;
+				background-color: $bg-color-product-button;
 				margin-top: 25px;
 			}
 		}

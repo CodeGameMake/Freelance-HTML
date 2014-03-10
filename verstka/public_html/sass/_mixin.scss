@@ -36,6 +36,16 @@
 @mixin grey() {
 	color: #2e2e2e;
 }
+
+@mixin background-block ($bg-color, $url-image, $position:false) {
+  background-color: $bg-color;
+	background-image: $url-image; 
+	@if $position != false {
+		background-position: $position;
+	}
+}
+
+
 @mixin bg_right{
 	background-position: right;
 }
