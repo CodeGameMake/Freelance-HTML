@@ -7,7 +7,8 @@
 */
 //markup block 
 header {
-	@include size($page_width 120px);
+	@include size(auto 120px);
+	@include responsive-width ($page_width);
   @include center();
 	position: relative;
 }
@@ -17,7 +18,8 @@ section {
 footer {
 	position: relative;
   @include center();
-	@include size($page_width 330px);
+	@include size(auto 330px);
+	@include responsive-width ($page_width);
 	background-color: #ffffff;
 }
 .container {

@@ -44,7 +44,10 @@
 		background-position: $position;
 	}
 }
-
+@mixin responsive-width ($width) {
+	max-width: $width;
+	width: 100%;
+}
 
 @mixin bg_right{
 	background-position: right;

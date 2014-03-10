@@ -1,0 +1,39 @@
+@media screen and (max-width: 1200px) {
+  header,
+	footer,
+	.block {
+		max-width: 1200px;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1080px) {
+  .block-product .content 
+	{
+		margin-left: 0px; 
+	}
+	nav {
+		left: 275px;
+	}
+	.logo {
+		left: 90px;
+	}
+}
+@media screen and (max-width: 980px) {
+	  .block-product .content 
+	{
+		margin-left: 0px; 
+	}
+	nav {
+		left: 195px;
+	}
+	.logo {
+		left: 20px;
+	}
+
+}
+@media screen and (max-width: 650px) {
+
+}
+@media screen and (max-width: 320px) {
+
+}
