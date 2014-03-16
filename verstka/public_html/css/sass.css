@@ -35,8 +35,10 @@
 *
 */
 header {
-  width: 1200px;
+  width: auto;
   height: 120px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   position: relative; }
 
@@ -46,8 +48,10 @@ section {
 footer {
   position: relative;
   margin: 0 auto;
-  width: 1200px;
+  width: auto;
   height: 330px;
+  max-width: 1200px;
+  width: 100%;
   background-color: #ffffff; }
 
 .container {
@@ -340,3 +344,52 @@ footer {
         width: 60px;
         height: 44px;
         font-family: Helvetica-BoldCond; }
+
+/* responsive
+-----------------------------------------------------*/
+/*
+*
+* --- file _responsive.scss
+* import all file project
+*
+*
+*/
+@media screen and (max-width: 1200px) {
+  body header, body footer, body .block {
+    max-width: 1200px;
+    width: 100%; } }
+@media screen and (max-width: 1080px) {
+  .block-product .content {
+    margin-left: 0px; }
+
+  header nav {
+    left: 275px; }
+  header .logo {
+    left: 90px; } }
+@media screen and (max-width: 980px) {
+  .block-product .content {
+    margin-left: -30px; }
+
+  header nav {
+    left: 195px; }
+  header .logo {
+    left: 20px; }
+
+  .block-shop img {
+    left: -60px; }
+  .block-shop .content {
+    margin-left: 420px; }
+
+  .block-gallery .content {
+    margin-left: 0px; }
+  .block-gallery img {
+    left: 580px; }
+
+  .duni .content {
+    margin-left: 30px; }
+  .duni .circle1 {
+    left: 530px; }
+  .duni .circle2 {
+    left: 692px; }
+  .duni .circle3 {
+    left: 852px; } }

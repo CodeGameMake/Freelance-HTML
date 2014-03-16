@@ -1,0 +1,77 @@
+/*
+*
+* --- file _responsive.scss
+* import all file project
+*
+*
+*/
+
+@media screen and (max-width: 1200px) {
+	body {
+		header, footer, .block {
+			max-width: 1200px;
+			width: 100%;
+		}
+	}
+}
+@media screen and (max-width: 1080px) {
+	.block-product {
+		.content {
+			margin-left: 0px;
+		}
+	}
+	header {
+		nav {
+			left: 275px;
+		}
+		.logo {
+			left: 90px;
+		}
+	}
+}
+@media screen and (max-width: 980px) {
+	.block-product {
+		.content {
+			margin-left: -30px;
+		}
+	}
+	header {
+		nav {
+			left: 195px;
+		}
+		.logo {
+			left: 20px;
+		}
+	}
+	.block-shop{
+		img{
+			left: -60px;
+		}
+		.content{
+			margin-left: 420px;
+		}
+	}
+	.block-gallery {
+		.content {
+			margin-left: 0px;
+		}
+		img {
+			left: 580px;
+		}
+	}
+	.duni {
+		.content {
+			margin-left: 30px;
+		}
+		.circle1 {
+			left: 530px;
+		}
+		.circle2 {
+			left: 692px;
+		}
+		.circle3 {
+			left: 852px;
+		}
+	}
+}
+@media screen and (max-width: 650px) {}@media screen and (max-width: 320px) {}
